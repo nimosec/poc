@@ -1,5 +1,5 @@
 ```mermaid
-%%{init: {"fontFamily": "x;a{b} :not(&){background:green !important} c{d}"}}%%
-flowchart LR
-    A --> B
+gantt
+  excludes monday,tuesday,wednesday,thursday,friday,saturday,sunday
+  DoS :2025-01-01, 1d
 ```
